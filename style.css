@@ -1,0 +1,67 @@
+body {
+	background-image: url("../images/portfolio9.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.loginForm {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: rgba(44,62,80,0.7);
+	width: 250px;
+	padding:  40px;
+	margin-left: 180px;
+	margin-top: 90px;
+	margin: 0 auto;
+}
+
+.loginForm, input[type="checkbox"] {
+	color: gold;
+}
+
+form {
+	text-align: center;
+	width: 240px;
+	margin: -10;
+}
+
+
+input {
+	width: 240px;
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	font-size: 16px;
+	font-weight: 200px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 10px;
+	transition: border0.5s;
+	outline: none;
+	height: 25px;
+	color: white;
+}
+
+
+::placeholder {
+	color: white-smoke;
+	opacity: 0.9s;
+}
+button {
+	border: none;
+	border-radius: 15px;
+	width: 90px;
+	height: 30px;
+	color: gold;
+	background: black;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+button:hover {
+		color: black;
+		background: cyan;
+	}
+
+.resetPassword, a {
+	color: white;
+}
